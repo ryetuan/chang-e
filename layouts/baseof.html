@@ -8,10 +8,11 @@
   </head>
   <body>
     <main>
-      <h1>{{ .Title }}</h1>
-      <div>
-        {{ .Content }}
-      </div>
+      <!-- All templates that use baseof.html will share code above -->
+      {{ block "main" . }}
+        <!-- The part of the page that differs between templates -->
+      {{ end }}
+      <!-- All templates that use baseof.html will share code below -->
     </main>
   </body>
 </html>
