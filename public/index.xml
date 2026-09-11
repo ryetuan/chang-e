@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 08 Sep 2026 12:53:40 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The Time Machine</title>
+      <link>http://localhost:1313/books/the-time-machine/</link>
+      <pubDate>Fri, 29 Aug 2025 11:08:59 +0100</pubDate>
+      <guid>http://localhost:1313/books/the-time-machine/</guid>
+      <description>&lt;p&gt;A Victorian scientist known as the Time Traveller invents a device that transports him to the year 802,701, where he discovers humanity split into two divergent species; the gentle, childlike Eloi who live above ground, and the nocturnal, predatory Morlocks who dwell below. As the Time Traveller navigates this strange world, he confronts the consequences of social division, witnesses the eventual decay of Earth, and ultimately returns to his own time, forever altered by the glimpse of humanity’s possible fate.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Short Story</title>
       <link>http://localhost:1313/short-story/</link>
       <pubDate>Tue, 08 Sep 2026 12:53:40 +0800</pubDate>
