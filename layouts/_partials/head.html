@@ -9,4 +9,9 @@
   {{ .Title }} &middot; {{ .Site.Title }}
 {{- end -}}
 </title>
+{{- with .Description -}}
+  <meta name="description" content="{{ . }}">
+  {{- else -}}
+  <meta name="description" content="{{ .Site.Params.description }}">
+{{- end -}}
 </head>

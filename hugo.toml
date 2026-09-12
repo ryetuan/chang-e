@@ -2,3 +2,5 @@ baseURL = 'https://ryetuan.github.io/chang-e/'
 languageCode = 'en-us'
 title = "The Legend Of Chang'e"
 summaryLength = 20
+[params]
+description = "The Legend of Chang'e"
