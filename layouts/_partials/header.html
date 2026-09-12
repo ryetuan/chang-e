@@ -2,9 +2,9 @@
   <a href="/">{{ .Site.Title }}</a>
   <nav>
     <ul>
-      <li><a href="/short-story">Short Story</a></li>
-      <li><a href="/interactive-games">Interactive Games</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li><a href='{{ "/short-story/" | relURL }}'>Short Story</a></li>
+      <li><a href='{{ "/interactive-games/" | relURL }}'>Interactive Games</a></li>
+      <li><a href='{{ "/contact/" | relURL }}'>Contact</a></li>
     </ul>
   </nav>
 </header>
