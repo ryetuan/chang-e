@@ -4,7 +4,7 @@ date: 2025-08-29T11:08:59+01:00
 draft: false # Change to `false` to publish the page
 description: 'Book summary, notes and highlights on a classic science fiction novel which popularised of the concept of time travel.' # Use to customise the meta description within the head element
 slug: 'the-time-machine'
-summary: '' # An optional summary of the page content
+summary: 'A Victorian Scientist...i.e SIGMA SIGMA BOI LOREM IPSUM DOLUR DET'
 weight: 1 # Use to order the page within the collection, must be an integer, e.g. 0, 1, 2, etc
 params:
   author: 'H. G. Wells' # Name of the person who wrote the book

@@ -1,3 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ryetuan.github.io/chang-e/'
 languageCode = 'en-us'
-title = 'The Legend Of Chang-e'
+title = "The Legend Of Chang'e"
+summaryLength = 20

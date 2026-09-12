@@ -5,7 +5,10 @@
     {{ range .Pages }}
       <li>
         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>by {{ .Params.author }}</p>
         <div>{{ .Summary }}</div>
+        <p><strong>Rating:</strong> {{ .Params.rating }}/5</p>
+        <p><strong>Genre:</strong> {{ delimit .Params.genre ", " }}</p>
       </li>
     {{ end }}
   </ul>

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article class="illustrated-story">
+  <header class="story-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.author }}<p class="story-author">By {{ . }}</p>{{ end }}
+    {{ with .Date }}<p class="story-date">{{ .Format "January 2, 2006" }}</p>{{ end }}
+  </header>
+
+  {{ with .Params.cover_image }}
+  <figure class="story-cover">
+    <img src="{{ . | relURL }}" alt="{{ $.Params.image_caption }}">
+    {{ with $.Params.image_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+  {{ end }}
+
+  <section class="story-content">
+    {{ .Content }}
+  </section>
+</article>
+{{ end }}
