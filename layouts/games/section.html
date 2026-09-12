@@ -1,15 +1,17 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  <ul>
-    {{ range .Pages }}
-      <li>
-        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        <p>by {{ .Params.author }}</p>
-        <div>{{ .Summary }}</div>
+  <ul role="list" class="books">
+  {{ range .Pages }}
+    <li>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p>by {{ .Params.author }}</p>
+      <div>{{ .Summary }}</div>
+      <div>
         <p><strong>Rating:</strong> {{ .Params.rating }}/5</p>
         <p><strong>Genre:</strong> {{ delimit .Params.genre ", " }}</p>
-      </li>
-    {{ end }}
-  </ul>
+      </div>
+    </li>
+  {{ end }}
+</ul>
 {{ end }}
