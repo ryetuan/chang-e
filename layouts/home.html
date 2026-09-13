@@ -1,6 +1,10 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  <div>
-    {{ .Content }}
+  <div class="region">
+    <h1>{{ .Title }}</h1>
+  </div>
+  <div class="region">
+    <div class="flow">
+      {{ .Content }}
+    </div>
   </div>
 {{ end }}

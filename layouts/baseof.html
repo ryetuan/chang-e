@@ -3,7 +3,7 @@
   {{ partial "head.html" . }}
   <body>
     {{ partial "header.html" . }}
-    <main>
+    <main class="wrapper">
       <!-- All templates that use baseof.html will share code above -->
       {{ block "main" . }}
         <!-- The part of the page that differs between templates -->

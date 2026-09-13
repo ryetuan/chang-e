@@ -1,17 +1,27 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  <p>by {{ .Params.author }}</p>
-  <ul>
-    <li><strong>Published:</strong> {{ .Params.published }}</li>
-    <li><strong>Started:</strong> {{ .Params.startdate }}</li>
-    <li><strong>Finished:</strong> {{ .Params.enddate }}</li>
-    <li><strong>Rating:</strong> {{ .Params.rating }}/5</li>
-    <li><strong>Format:</strong> {{ .Params.format }}</li>
-    <li><strong>Status:</strong> {{ .Params.status }}</li>
-    <li><strong>Genre:</strong> {{ delimit .Params.genre ", " }}</li>
-  </ul>
-  <a href="{{ .Params.url }}">Details and reviews</a> 
-  <div>
-    {{ .Content }}
+  <div class="region flow">
+    <div class="flow">
+      <h1>{{ .Title }}</h1>
+      <p style="--flow-space: .5em;">by {{ .Params.author }}</p>
+    </div>
+    <div class="flow">
+      <ul role="list" class="cluster">
+        <li><strong>Published:</strong> {{ .Params.published }}</li>
+        <li><strong>Started:</strong> {{ .Params.startdate }}</li>
+        <li><strong>Finished:</strong> {{ .Params.enddate }}</li>
+        <li><strong>Rating:</strong> {{ .Params.rating }}/5</li>
+        <li><strong>Format:</strong> {{ .Params.format }}</li>
+        <li><strong>Status:</strong> {{ .Params.status }}</li>
+        <li><strong>Genre:</strong> {{ delimit .Params.genre ", " }}</li>
+      </ul>
+      <div>
+        <a href="{{ .Params.url }}">Details and reviews</a>
+      </div>  
+    </div>
+  </div>
+  <div class="region">
+    <div class="flow">
+      {{ .Content }}
+    </div>
   </div>
 {{ end }}

@@ -1,17 +1,21 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  <ul role="list" class="books">
-  {{ range .Pages }}
-    <li>
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      <p>by {{ .Params.author }}</p>
-      <div>{{ .Summary }}</div>
-      <div>
-        <p><strong>Rating:</strong> {{ .Params.rating }}/5</p>
-        <p><strong>Genre:</strong> {{ delimit .Params.genre ", " }}</p>
-      </div>
-    </li>
-  {{ end }}
-</ul>
+  <div class="region">
+    <h1>{{ .Title }}</h1>
+  </div>
+  <div class="region">
+    {{ .Content }}
+    <ul role="list" class="books">
+      {{ range .Pages }}
+        <li class="flow region">
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <p style="--flow-space: .5em;">by {{ .Params.author }}</p>
+          <div>{{ .Summary }}</div>
+          <div class="cluster">
+            <p><strong>Rating:</strong> {{ .Params.rating }}/5</p>
+            <p><strong>Genre:</strong> {{ delimit .Params.genre ", " }}</p>
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
 {{ end }}
