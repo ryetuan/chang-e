@@ -62,7 +62,7 @@ textarea, select {
 
 /* 1. Set design tokens using custom properties */
 :root {
-  --color-light: ##FDE9A8;
+  --color-light: #FDE9A8;
   --color-dark: #101B33;
   --color-primary: #1B2A4A;  
   --font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
@@ -73,7 +73,7 @@ textarea, select {
 body {
   background-color: var(--color-light);
   color: var(--color-dark);
-  font-family: var(--font-base);
+  font-family: var(--font-family);
 }
 
 /* 3. Set default heading line measure to improve readability */
