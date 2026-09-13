@@ -1,7 +1,16 @@
-<header class="region">
+<header class="site-header region">
   <div class="wrapper">
     <div class="repel">
-      <a href="/chang-e/">{{ .Site.Title }}</a>
+
+      <a class="site-title" href="/chang-e/">
+        <img
+          class="moon-drawing"
+          src="/chang-e/images/moon.png"
+          alt="Digital Drawing of A Soft Moon"
+        >
+        <span>{{ .Site.Title }}</span>
+      </a>
+
       <nav>
         <ul role="list" class="cluster">
           <li><a href="/chang-e/short-story/">Short Story</a></li>
@@ -9,6 +18,15 @@
           <li><a href="/chang-e/contact/">Contact</a></li>
         </ul>
       </nav>
-    <div>
+
+      <button
+        id="theme-toggle"
+        type="button"
+        aria-label="Switch to dark mode"
+      >
+        ☾
+      </button>
+
+    </div>
   </div>
-</header> 
+</header>

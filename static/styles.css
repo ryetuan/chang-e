@@ -62,17 +62,25 @@ textarea, select {
 
 /* 1. Set design tokens using custom properties */
 :root {
-  --color-light: #FDE9A8;
-  --color-dark: #101B33;
-  --color-primary: #1B2A4A;  
-  --font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
-  --font-weight: normal;
+  --bg: #FFF8E7;
+  --text: #18233F;
+  --header: #101B33;
+  --header-text: #FFF8E7;
+  --accent: #526B91;
+}
+
+[data-theme="dark"] {
+  --bg: #101827;
+  --text: #F8F1DF;
+  --header: #F2E8C9;
+  --header-text: #18233F;
+  --accent: #9DB7D9;
 }
 
 /* 2. Apply color and font tokens */
 body {
-  background-color: var(--color-light);
-  color: var(--color-dark);
+  background-color: var(--bg);
+  color: var(--text);
   font-family: var(--font-family);
 }
 
@@ -149,4 +157,30 @@ a:focus {
   row-gap: var(--repel-row-gap, .25rem);
   justify-content: space-between;
   align-items: var(--repel-vertical-alignment, center);
+}
+.site-header {
+  background-color: var(--header);
+  color: var(--header-text);
+  transition:
+    background-color 300ms ease,
+    color 300ms ease;
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: var(--header-text);
+  text-decoration: none;
+}
+
+.moon-drawing {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.site-header a {
+  color: var(--header-text);
 }
