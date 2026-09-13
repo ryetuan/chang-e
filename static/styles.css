@@ -184,3 +184,36 @@ a:focus {
 .site-header a {
   color: var(--header-text);
 }
+[data-theme="dark"] .site-header {
+  background-color: #D8D1BC;
+
+  background-image:
+    radial-gradient(
+      circle at 12% 35%,
+      rgba(85, 78, 67, 0.14) 0 18px,
+      transparent 19px
+    ),
+    radial-gradient(
+      circle at 30% 70%,
+      rgba(85, 78, 67, 0.11) 0 10px,
+      transparent 11px
+    ),
+    radial-gradient(
+      circle at 52% 25%,
+      rgba(85, 78, 67, 0.15) 0 26px,
+      transparent 27px
+    ),
+    radial-gradient(
+      circle at 74% 65%,
+      rgba(85, 78, 67, 0.10) 0 15px,
+      transparent 16px
+    ),
+    radial-gradient(
+      circle at 90% 30%,
+      rgba(85, 78, 67, 0.13) 0 9px,
+      transparent 10px
+    );
+}
+[data-theme="dark"] .moon-drawing {
+  display: none;
+}
