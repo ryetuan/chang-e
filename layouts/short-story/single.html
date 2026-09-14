@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+<main class="story-page" data-image-base={{ "images/" | relURL }}>
+
+  <div class="story-book">
+
+    <p class="story-page-number" id="story-page-number">01</p>
+
+    <section class="story-image-side">
+      <img
+        id="story-image"
+        src="{{ "images/story-1.png" | relURL }}"
+        alt=""
+      >
+    </section>
+
+    <section class="story-text-side">
+
+      <p class="story-chapter-number" id="story-number">
+        Chapter 1
+      </p>
+
+      <h1 id="story-title">What We Had</h1>
+
+      <div id="story-text" class="story-text">
+        <p>
+          Every day, Dad returned home at 8:47 p.m.
+        </p>
+
+        <p>
+          I could tell what kind of day he'd had by the way he put his keys down.
+        </p>
+
+        <p>
+          On good days, they landed lightly on the wooden table by the door.
+          On bad days, they'd clatter against the wood.
+        </p>
+      </div>
+
+      <div class="story-controls">
+
+        <button
+          id="story-prev"
+          type="button"
+          aria-label="Previous chapter"
+        >
+          ←
+        </button>
+
+        <button
+          id="story-next"
+          type="button"
+          aria-label="Next chapter"
+        >
+          →
+        </button>
+
+      </div>
+
+    </section>
+
+  </div>
+
+</main>
+
+<script src="{{ "story.js" | relURL }}"></script>
+
+{{ end }}
