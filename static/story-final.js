@@ -29,7 +29,7 @@ const storyPages = [
 
       `I didn't really understand what he meant.`,
 
-      `I just liked sitting there with him.`
+      `I just liked sitting there with him.`,
 
       `That night, everything was quiet. Dad had already gone to bed early. I was watching the moon through the window when I saw something flicker at the edge of the garden.`,
 
