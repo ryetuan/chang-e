@@ -1,10 +1,67 @@
 {{ define "main" }}
-  <div class="region">
-    <h1>{{ .Title }}</h1>
-  </div>
-  <div class="region">
-    <div class="flow">
-      {{ .Content }}
+
+<main class="home-page">
+
+  <section class="home-hero">
+
+    <div class="home-hero-text">
+
+      <p class="home-eyebrow">
+        A modern reimagining of an ancient myth
+      </p>
+
+      <h1>
+        What does it mean to sacrifice for someone you love?
+      </h1>
+
+      <p>
+        Explore a modern retelling of the legend of Chang'e,
+        where an ancient story meets a modern family.
+      </p>
+
+      <a class="home-button" href="{{ "short-story/" | relURL }}">
+        Read the story
+      </a>
+
     </div>
-  </div>
+
+    <div class="home-hero-moon">
+      <img
+        src="{{ "images/moon.png" | relURL }}"
+        alt="A hand-drawn full moon."
+      >
+    </div>
+
+  </section>
+
+
+  <section class="home-potion">
+
+    <div class="home-potion-image">
+      <img
+        src="{{ "images/potion.png" | relURL }}"
+        alt="A hand-drawn potion bottle."
+      >
+    </div>
+
+    <div class="home-potion-text">
+
+      <p class="home-eyebrow">
+        The original myth
+      </p>
+
+      <h2>The Elixir</h2>
+
+      <p>
+        The original legend centres on an elixir, a choice,
+        and the consequences of sacrifice. This adaptation
+        keeps those ideas while placing Chang'e in a modern setting.
+      </p>
+
+    </div>
+
+  </section>
+
+</main>
+
 {{ end }}

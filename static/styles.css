@@ -225,9 +225,11 @@ a:focus {
 }
 /* STORY BOOK STORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOKSTORY BOOK */
 
+/* STORY */
+
 .story-page {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
+  width: 100%;
+  min-height: calc(100vh - 100px);
   padding: 0;
 }
 
@@ -236,7 +238,7 @@ a:focus {
   min-height: calc(100vh - 100px);
 
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
 
   position: relative;
 }
@@ -254,8 +256,10 @@ a:focus {
 
 .story-image-side img {
   display: block;
+
   width: 100%;
   height: 100%;
+
   object-fit: contain;
 }
 
@@ -263,7 +267,7 @@ a:focus {
   min-width: 0;
   min-height: calc(100vh - 100px);
 
-  padding: 6rem 8vw 6rem 6vw;
+  padding: 6rem 8vw 6rem 5vw;
 
   display: flex;
   flex-direction: column;
@@ -278,6 +282,7 @@ a:focus {
   left: 2rem;
 
   margin: 0;
+
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   opacity: 0.5;
@@ -289,24 +294,33 @@ a:focus {
   font-size: 0.8rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+
   opacity: 0.5;
 }
 
 .story-text-side h1 {
   margin: 0 0 2rem;
+
   font-size: clamp(2.5rem, 5vw, 5rem);
   line-height: 1.05;
 }
 
 .story-text {
+  width: 100%;
   max-width: 45rem;
+
   font-size: 1.05rem;
   line-height: 1.8;
 }
 
+.story-text p {
+  margin: 0 0 1.25rem;
+}
+
 .story-controls {
   position: absolute;
-  right: 5vw;
+
+  right: 4rem;
   bottom: 2.5rem;
 
   display: flex;
@@ -316,12 +330,57 @@ a:focus {
 .story-controls button {
   padding: 0.25rem;
 
-  border: 0;
+  border: none;
   background: transparent;
   color: inherit;
 
   font-size: 1.8rem;
+  line-height: 1;
+
   cursor: pointer;
+
+  opacity: 0.7;
+}
+
+.story-controls button:hover:not(:disabled) {
+  opacity: 1;
+}
+
+.story-controls button:disabled {
+  opacity: 0.2;
+  cursor: default;
+}
+
+.slide-in-right {
+  animation: slideInRight 350ms ease;
+}
+
+.slide-in-left {
+  animation: slideInLeft 350ms ease;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @media (max-width: 800px) {
@@ -337,4 +396,387 @@ a:focus {
     min-height: 50vh;
     padding: 3rem 2rem 6rem;
   }
+
+  .story-controls {
+    right: 2rem;
+    bottom: 1.5rem;
+  }
+}
+
+/* INTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVEINTERACTIVE */
+
+/* INTERACTIVE */
+
+.interactive-page {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  padding: 0;
+}
+
+.interactive-layout {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.interactive-image-side {
+  min-width: 0;
+  min-height: calc(100vh - 100px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+}
+
+.interactive-image-side img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.interactive-content {
+  min-width: 0;
+  min-height: calc(100vh - 100px);
+
+  padding: 6rem 8vw 6rem 5vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.interactive-eyebrow {
+  margin: 0 0 1rem;
+
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+
+  opacity: 0.5;
+}
+
+.interactive-content h1 {
+  margin: 0 0 1.5rem;
+
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  line-height: 1.05;
+}
+
+.interactive-question {
+  max-width: 45rem;
+
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.interactive-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  max-width: 32rem;
+
+  margin-top: 2rem;
+}
+
+.interactive-options button {
+  padding: 1rem 1.25rem;
+
+  border: 1px solid currentColor;
+  border-radius: 999px;
+
+  background: transparent;
+  color: inherit;
+
+  font: inherit;
+  text-align: left;
+
+  cursor: pointer;
+}
+
+.interactive-options button:hover,
+.interactive-options button.selected {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.interactive-result {
+  max-width: 45rem;
+
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+
+  border-top: 1px solid currentColor;
+}
+
+.interactive-result h2 {
+  margin: 0 0 0.75rem;
+}
+
+.interactive-result p {
+  line-height: 1.8;
+}
+
+@media (max-width: 800px) {
+  .interactive-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .interactive-image-side {
+    min-height: 45vh;
+  }
+
+  .interactive-content {
+    min-height: 55vh;
+    padding: 3rem 2rem 5rem;
+  }
+}
+
+
+body:has(.story-page) .wrapper:has(.story-page),
+body:has(.interactive-page) .wrapper:has(.interactive-page) {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+body:has(.story-page) .story-book,
+body:has(.interactive-page) .interactive-layout {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+body:has(.story-page) .story-image-side,
+body:has(.story-page) .story-text-side,
+body:has(.interactive-page) .interactive-image-side,
+body:has(.interactive-page) .interactive-content {
+  width: auto;
+  max-width: none;
+}
+/* HOME HOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOME*/
+
+/* HOME */
+
+.home-page {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home-hero {
+  width: 100%;
+  min-height: calc(100dvh - 100px);
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.home-hero-text {
+  width: 100%;
+  max-width: 42rem;
+
+  padding: 5rem 5vw 5rem 7vw;
+}
+
+.home-eyebrow {
+  margin: 0 0 1rem;
+
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+
+  opacity: 0.55;
+}
+
+.home-hero h1 {
+  margin: 0 0 1.5rem;
+
+  font-size: clamp(2.8rem, 5vw, 5.5rem);
+  line-height: 1.02;
+}
+
+.home-hero-text > p:not(.home-eyebrow) {
+  max-width: 34rem;
+
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.home-button {
+  display: inline-block;
+
+  margin-top: 2rem;
+  padding: 0.9rem 1.4rem;
+
+  border: 1px solid currentColor;
+  border-radius: 999px;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  background: var(--text);
+  color: var(--bg);
+}
+
+
+/* MOON */
+
+.home-hero-moon {
+  width: 100%;
+  height: 100%;
+  min-height: calc(100dvh - 100px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.home-hero-moon img {
+  display: block;
+
+  width: 115%;
+  max-width: none;
+  height: auto;
+
+  flex-shrink: 0;
+
+  transform: scale(1.15);
+}
+
+
+/* POTION SECTION */
+
+.home-potion {
+  width: 100%;
+  min-height: 70vh;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.home-potion-image {
+  width: 100%;
+  height: 100%;
+  min-height: 70vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.home-potion-image img {
+  display: block;
+
+  width: 95%;
+  max-width: none;
+  height: auto;
+
+  flex-shrink: 0;
+
+  transform: scale(1.1);
+}
+
+.home-potion-text {
+  width: 100%;
+  max-width: 42rem;
+
+  padding: 5rem 7vw 5rem 5vw;
+}
+
+.home-potion-text h2 {
+  margin: 0 0 1.5rem;
+
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  line-height: 1.05;
+}
+
+.home-potion-text p:last-child {
+  max-width: 34rem;
+
+  line-height: 1.8;
+}
+
+
+/* REMOVE THE THEME'S NARROW WRAPPER */
+
+body:has(.home-page) .wrapper:has(.home-page) {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding-inline: 0;
+}
+
+body:has(.home-page) .home-page {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+  .home-hero {
+    min-height: auto;
+
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero-text {
+    padding: 4rem 2rem 3rem;
+  }
+
+  .home-hero-moon {
+    min-height: 55vh;
+    height: 55vh;
+  }
+
+  .home-hero-moon img {
+    width: 115%;
+    transform: scale(1.1);
+  }
+
+  .home-potion {
+    min-height: auto;
+
+    grid-template-columns: 1fr;
+  }
+
+  .home-potion-image {
+    min-height: 50vh;
+    height: 50vh;
+  }
+
+  .home-potion-text {
+    padding: 3rem 2rem 5rem;
+  }
+
+  .home-potion-image img {
+    width: 90%;
+    transform: scale(1.05);
+  }
+
 }

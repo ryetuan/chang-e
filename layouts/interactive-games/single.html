@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+<main class="interactive-page">
+
+  <div class="interactive-layout">
+
+    <section class="interactive-image-side">
+
+      <img
+        src="{{ "images/moon.png" | relURL }}"
+        alt="The moon above a quiet house at night."
+      >
+
+    </section>
+
+    <section class="interactive-content">
+
+      <p class="interactive-eyebrow">
+        A choice from the story
+      </p>
+
+      <h1>What would you do?</h1>
+
+      <p class="interactive-question">
+        You notice the same unfamiliar people near your house
+        for several nights. You still don't know what they want.
+        What do you do?
+      </p>
+
+      <div class="interactive-options">
+
+        <button
+          type="button"
+          data-result="tell"
+        >
+          Tell someone you trust
+        </button>
+
+        <button
+          type="button"
+          data-result="watch"
+        >
+          Keep watching from inside
+        </button>
+
+        <button
+          type="button"
+          data-result="outside"
+        >
+          Go outside yourself
+        </button>
+
+      </div>
+
+      <div
+        id="interactive-result"
+        class="interactive-result"
+        aria-live="polite"
+      >
+        <p>Choose an option to see what happens.</p>
+      </div>
+
+    </section>
+
+  </div>
+
+</main>
+
+<script src="{{ "interactive.js" | relURL }}"></script>
+
+{{ end }}
