@@ -11,13 +11,13 @@ const storyPages = [
 
       `He'd drag himself through the front door, his scuffed bag hanging from one shoulder, drop it beside the couch and sink into the cushions. I always asked how his day went anyway.`,
 
-      `"Great," he'd say.`,
+      `"Great", he'd say.`,
 
       `It never was.`,
 
       `I noticed how, as each day passed, his bag seemed to get heavier and heavier. He'd been working overtime for weeks, saving for "something important". Whenever I asked what it was, he would just smile, tuck my long hair behind my ears, and tell me I'd understand eventually. I knew it had to matter. Dad usually didn't work this hard for anything.`,
 
-      `Before all the overtime, we used to sit on the verandah together in the evenings, beneath the warm glow of the porch light. Sometimes we didn't even talk. We would simply sit under the open sky and watch the moon drift above the rooftops.`,
+      `Before all the overtime, we used to sit on the verandah together in the evenings, beneath the warm glow of the porch light. Sometimes we didn't even talk. We would just sit under the open sky and watch the moon drift above the rooftops.`,
 
       `"The moon's looking pretty tonight," he would say.`,
 
@@ -25,9 +25,11 @@ const storyPages = [
 
       `"Maybe because it's true every time."`,
 
-      `Once, as he gazed at the moon, he told me, "Some things are worth working toward, even when they feel far away."`,
+      `Once, as he gazed up at the moon, he told me, "Some things are worth working toward, even when they feel far away."`,
 
-      `I didn't really understand what he meant. I just liked sitting there with him.`,
+      `I didn't really understand what he meant.`,
+
+      `I just liked sitting there with him.`
 
       `That night, everything was quiet. Dad had already gone to bed early. I was watching the moon through the window when I saw something flicker at the edge of the garden.`,
 
@@ -41,7 +43,7 @@ const storyPages = [
     number: "Chapter 2",
     title: "What I Saw",
     image: "story-2.png",
-    alt: "Two suspicious figures near a fence at night.",
+    alt: "",
     text: [
       `I stayed perfectly still, hardly daring to breathe. My heart thumped painfully against my ribs as I frantically tried to think.`,
 
@@ -51,31 +53,36 @@ const storyPages = [
 
       `The figures started moving along the fence. I couldn't see their faces. Then the porch light flickered.`,
 
-      `What should I do? What can I do? My thoughts spiralled as I frantically searched for the two figures again.`,
+      `What should I do? What can I do? My thoughts spiralled as I frantically searched again for the two figures.`,
 
       `They were gone.`,
 
-      `Maybe it was nothing. An accident. Someone passing by. Something else.`,
+      `Maybe it was nothing. An accident. Some people passing by. Something else.`,
 
-      `I had a nagging feeling that I should tell Dad. But he was already overworked, dark circles sitting beneath his eyes. I didn't want to give him another thing to worry about.`,
+      `I had a nagging feeling that I should tell Dad. But he was already overworked, dark bags sitting under his eyes. I didn't want to give him another thing to worry about.`,
+
+      `☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾`
 
       `The next night, they came back.`,
 
-      `This time, I watched more carefully. They walked along the fence, stopped near the gate, and crouched beside the ground. One of them drew something in the dirt before quickly wiping it away.`,
+      `This time, I was prepared for them. I watched them carefully. They walked along the fence, stopped at the gate, and crouched near the ground. One of them drew something in the dirt before quickly wiping it away, then they left.`,
 
-      `Then they left.`,
+      `Twice. Twice surely couldn't just be a coincidence.`,
 
-      `Twice. Twice couldn't just be a coincidence.`,
-
-      `But what evidence did I have? Two people came near our fence and left. What did that prove? Nothing.`,
-
+      `I should tell someone, anyone, but what evidence did I have? Two people came near our fence and left. What did that prove? Nothing.`,
+      
       `So I kept watching.`,
 
-      `The third night, I stayed awake until ten, staring through the window and hoping they wouldn't return. Just when I finally let myself relax, five silhouettes rose behind the fence.`,
+   `☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾`
 
-      `I whipped back toward the window. They were carrying something large between them.`,
+      `On the third night, I stayed awake until ten, staring through the window and hopin, pleading that they wouldn't return. Just when I finally let myself relax, five silhouettes popped up from behind the fence.`,
 
-      `Three times is a pattern.`
+      `I whipped back toward the window. They were rolling something large with them.`,
+
+      `This was the third time, and they brought more people.`
+
+       `Three times is a pattern.`
+
     ]
   },
 
@@ -83,21 +90,21 @@ const storyPages = [
     number: "Chapter 3",
     title: "What I Could Protect",
     image: "story-3.png",
-    alt: "Chang'e listening from a window as figures gather outside.",
+    alt: "",
     text: [
       `I crouched beside the window and listened.`,
 
-      `The window was open just enough for their voices to reach me.`,
+      `The window was just open enough for me to hear their voices.`,
 
-      `"Third time..."`,
+      `"3rd time..."`,
 
       `"This house..."`,
 
       `"Easy..."`,
 
-      `Then I heard a word that made my stomach drop.`,
+      `Then I heard the word that made my stomach drop and my gut recoil.`,
 
-      `"Funds."`,
+      `"Funds..."`,
 
       `My mind raced. Then another voice said something I could barely make out.`,
 
@@ -105,27 +112,29 @@ const storyPages = [
 
       `Rob.`,
 
-      `They were talking about robbing the house.`,
+      `They were discussing about how to rob the house.`,
 
-      `Suddenly, the last few nights made sense. The people. The fence. The gate. The disappearing footsteps.`,
+      `Suddenly, the last few nights made sense. The people. The scouting. The hushed whispers.`,
 
-      `Then I thought of Dad.`,
+      `I thought of Dad.`,
 
-      `His late nights. His heavy bag. The overtime. The mysterious thing he'd been saving for.`,
+      `His late nights. His heavy scuffed bag. The overtime. The mysterious thing he'd been saving for.`,
 
       `What if they were after that? What if they took everything he'd worked so hard for?`,
 
-      `I thought about telling him. I thought about calling someone. But I still hesitated. What if I was wrong? What if I made him panic over nothing?`,
+      `I thought about telling him. About calling someone. But I still hesitated. What if I was wrong? What if I made him panic over nothing?`,
 
-      `I looked toward Dad's bedroom. He needed rest.`,
+      `I looked toward Dad's bedroom. He needed rest, for his hard work, his endless toil, for his dream, his goal.`,
 
-      `So I made a decision.`,
+      `I couldn't tell him.`,
 
       `I would deal with it myself.`,
 
-      `I told myself I was being brave. I told myself I was protecting Dad.`,
+      `I had to do this.`,
 
-      `More than anything, I told myself I couldn't let his hard work mean nothing.`,
+      `I told myself I was being brave. I was protecting Dad.`,
+
+      `More than anything else, I couldn't let his hard work mean nothing.`,
 
       `I quietly opened the front door.`
     ]
@@ -135,37 +144,37 @@ const storyPages = [
     number: "Chapter 4",
     title: "What We Could Lose",
     image: "story-4.png",
-    alt: "Chang'e standing outside as her father discovers her.",
+    alt: "",
     text: [
-      `The porch light was off. The warmth it usually gave the verandah was gone, leaving the garden dark and cold.`,
+      `The porch light was off. The warmth it usually gave was gone, leaving the verandah dark, and cold.`,
 
-      `I stepped outside.`,
+      `I tiptoed outside. One foot. Then another.`,
 
-      `One foot. Then another.`,
-
-      `The figures were still beyond the fence. I could hear them whispering, but I couldn't make out the words.`,
+      `The figures were still beyond the fence. I could hear them whispering, but I couldn't make out what they were saying.`,
 
       `I took another step.`,
 
-      `Then the door creaked behind me.`,
+      `Then the door suddenly creaked and openedbehind me.`,
 
       `I spun around.`,
 
-      `Dad stood there.`,
+      `It was Dad.`,
 
-      `"What are you doing up so late, Chang'e?"`,
+      `"What are you doing up so late, Chang'e?" He questioned.`
 
-      `I opened my mouth. Nothing came out.`,
+      `I opened my mouth. Nothing came out. What could I say? Should I say?`,
 
       `"And outside?" he added.`,
 
-      `I shivered in the late-night cold as Dad stared at me, concerned.`,
+      `I shivered in the late night gale as Dad stared at me, concerned.`,
 
-      `"There—there are people outside."`,
+      `I finally gave in.`,
 
-      `His expression changed.`,
+      `"There—-there are people outside."`,
 
-      `"They've been coming for nights," I said. "I saw them. They're watching the house. I think they're planning to rob us."`,
+      `His face changed.`,
+
+      `"They've been coming for nights!" I exclaimed. "I saw them. They're watching the house. I think--I think they're planning to rob us."`,
 
       `Dad stared at me.`,
 
@@ -177,7 +186,7 @@ const storyPages = [
 
       `"Chang'e. Why didn't you tell me?"`,
 
-      `"Because you're already exhausted!" My voice cracked. "You've been working every day. You can barely keep your eyes open. I didn't want to give you something else to worry about."`,
+      `"I didn't want to worry you— I— I was trying to protect what you worked so hard for!" My voice cracked. "You've been working every day. You can barely keep your eyes open. You're exhausted!"`,
 
       `I finally said what I had been thinking all along.`,
 
@@ -185,9 +194,9 @@ const storyPages = [
 
       `Dad was silent for a moment.`,
 
-      `"That's why I work, Chang'e," he said quietly.`,
+      `"That's why I work, Chang'e," he said softly, quietly.`,
 
-      `I looked up.`,
+      `I glanced at him.`,
 
       `"For what?"`,
 
@@ -195,21 +204,19 @@ const storyPages = [
 
       `My throat tightened.`,
 
-      `"I'd rather lose every dollar I've saved than lose you."`,
+      `"I'd rather lose everything else, every dollar I've ever saved than lose you."`,
 
       `Something inside me went quiet.`,
 
-      `All this time, I'd been thinking that protecting Dad meant protecting the money.`,
+      `All this time, through the anticipation, I had been thinking that protecting Dad meant protecting the money.`,
 
-      `But Dad wasn't working this hard because the money itself mattered.`,
+      `But it wasn't.`,
 
-      `He was working because I mattered.`,
-
-      `He gently guided me back inside.`,
+      `He gently nudged me back inside.`,
 
       `This time, I didn't argue.`,
 
-      `Dad made the calls. The strangers were dealt with without me having to face them.`,
+      `Dad made the calls. The strangers were dealt with without me having to even face them.`,
 
       `For the first time in weeks, Dad finally slept without going back to work.`
     ]
@@ -217,19 +224,17 @@ const storyPages = [
 
   {
     number: "Chapter 5",
-    title: "What It Was For",
+    title: "What We Have",
     image: "story-5.png",
     alt: "Chang'e and her father sitting together beneath the porch light.",
     text: [
-      `Things were quieter after that.`,
+      `Things were quieter after that. Dad took more breaks. He stopped collapsing so much on the couch.`,
 
-      `Dad took more breaks. He stopped bringing his laptop to the couch.`,
+      `Some nights, we would sit on the verandah again. Sometimes we talked. Other times, we didn't.`,
 
-      `Some nights, we'd sit on the verandah again. Sometimes we talked. Sometimes we didn't.`,
+      `I kept wondering what that "something important" that mattered had been.`,
 
-      `I kept wondering what that "something important" had been.`,
-
-      `One afternoon, I found a bank statement on Dad's desk. I almost left it there.`,
+      `One afternoon, I found a bank letter on Dad's desk. I almost turned away from it.`,
 
       `Then I saw my name.`,
 
@@ -237,27 +242,29 @@ const storyPages = [
 
       `And again.`,
 
-      `At the top of the page was the name of the account.`,
+      `At the top of the page was the name of the account he had deposited $5000 in every month.`,
 
-      `Education Fund: Chang'e.`,
+      `"Education Fund: For Chang'e."`,
 
-      `My chest tightened.`,
+      `My chest tightened, threatening to burst.`,
 
-      `For weeks, I had imagined Dad saving for some distant dream. Something important. Something far away.`,
+      `For weeks, I had imagined Dad saving for some distant dream, some faraway goal. Something important.`,
 
       `It had been me.`,
 
-      `The money I'd been so determined to protect wasn't really about money at all.`,
+         `Me.`,
 
-      `Dad had been working toward a better future for me while I had been willing to risk myself trying to protect it.`,
+      `The money I'd been so focused on to protect wasn't really about that money at all.`,
 
-      `I stared at the paper until the words blurred.`,
+      `Dad had been working for a better future for me while I had been willing to risk myself trying to protect it.`,
 
-      `That evening, Dad found me sitting on the verandah.`,
+      `I stared at the paper until the lines blurred.`,
 
-      `The porch light glowed above us.`,
+      `That night, Dad found me sitting on the verandah.`,
 
-      `The moon hung over the rooftops, just as it always had.`,
+      `The porch light glowed warm above us.`,
+
+      `The moon hung right over the rooftops, just as it always had.`,
 
       `"The moon's looking pretty tonight," he said.`,
 
@@ -267,19 +274,21 @@ const storyPages = [
 
       `"Maybe because it's true every time."`,
 
-      `I looked up.`,
+      `I looked up to gaze at the moon.`,
 
       `This time, I understood.`,
 
-      `Some things really were worth working toward, even when they felt far away.`,
+      `Some things really were worth working toward, even when we feel they're far away.`,
 
-      `But some things were worth much more than reaching any dream.`,
+      `But some things were worth way more than reaching any dream or goal.`,
 
       `I leaned against Dad's shoulder.`,
 
-      `For the first time in a long time, I wasn't thinking about what we might lose.`,
+      `For the first time in a very long time, I wasn't thinking about what we might lose. That any hard work would be for nothing if it might be stolen.`,
 
       `I was thinking about what we still had.`
+
+      `Each other.`
     ]
   }
 ];
