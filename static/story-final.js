@@ -75,9 +75,9 @@ const storyPages = [
 
       `I whipped back toward the window. They were rolling something large with them.`,
 
-      `This was the third time, and they brought more people.`
+      `This was the third time, and they brought more people.`,
 
-       `Three times is a pattern.`
+      `Three times is a pattern.`
 
     ]
   },
