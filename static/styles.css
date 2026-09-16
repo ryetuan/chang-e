@@ -93,14 +93,16 @@ li {
 
 a {
   color: var(--text);
+  text-decoration: underline;
   text-decoration-color: var(--accent);
+  text-decoration-thickness: .25ex;
 }
 
 
 a:hover,
 a:focus {
   text-decoration: line-through;
-  text-decoration-color: var(--accent;
+  text-decoration-color: var(--accent);
   text-decoration-thickness: .25ex;
 }
 
@@ -112,6 +114,7 @@ a:focus {
 
 :focus-visible {
   outline: 2px dotted var(--text);
+  outline-offset: 3px;
 }
 .flow > * + * {
   margin-block-start: var(--flow-space, 1em);
@@ -130,7 +133,7 @@ a:focus {
   padding-block-start: 1.5rem;
   padding-block-end: 1.5rem;
 }
-     
+      
 
 .wrapper {
   width: 95vw;
@@ -559,7 +562,7 @@ body:has(.interactive-page) .interactive-content {
   width: auto;
   max-width: none;
 }
-/* HOME HOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOME*/
+/* HOME HOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOM */
 
 /* HOME */
 
