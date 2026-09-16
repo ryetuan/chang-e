@@ -61,8 +61,6 @@ const storyPages = [
 
       `I had a nagging feeling that I should tell Dad. But he was already overworked, dark bags sitting under his eyes. I didn't want to give him another thing to worry about.`,
 
-      `☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾`
-
       `The next night, they came back.`,
 
       `This time, I was prepared for them. I watched them carefully. They walked along the fence, stopped at the gate, and crouched near the ground. One of them drew something in the dirt before quickly wiping it away, then they left.`,
@@ -72,8 +70,6 @@ const storyPages = [
       `I should tell someone, anyone, but what evidence did I have? Two people came near our fence and left. What did that prove? Nothing.`,
       
       `So I kept watching.`,
-
-   `☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾`
 
       `On the third night, I stayed awake until ten, staring through the window and hopin, pleading that they wouldn't return. Just when I finally let myself relax, five silhouettes popped up from behind the fence.`,
 

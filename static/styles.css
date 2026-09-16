@@ -92,17 +92,15 @@ li {
 
 
 a {
-  color: var(--color-dark);
-  text-decoration: underline;
-  text-decoration-color: var(--color-primary);
-  text-decoration-thickness: .25ex;
+  color: var(--text);
+  text-decoration-color: var(--accent);
 }
 
 
 a:hover,
 a:focus {
   text-decoration: line-through;
-  text-decoration-color: var(--color-primary);
+  text-decoration-color: var(--accent;
   text-decoration-thickness: .25ex;
 }
 
@@ -113,8 +111,7 @@ a:focus {
 
 
 :focus-visible {
-  outline: 2px dotted var(--color-dark);
-  outline-offset: 3px;
+  outline: 2px dotted var(--text);
 }
 .flow > * + * {
   margin-block-start: var(--flow-space, 1em);
