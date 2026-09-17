@@ -19,7 +19,7 @@ const storyPages = [
       `I just liked sitting there with him.`,
       `That night, everything was quiet. Dad had already gone to bed early. I was watching the moon through the window when I saw something flicker at the edge of the garden.`,
       `I froze.`,
-      `There were two figures creeping along the fence.`
+      `There were two figures creeping along the fence.`,
     ]
   },
 
@@ -33,13 +33,11 @@ const storyPages = [
       `The figures started moving along the fence. I couldn't see their faces. Then the porch light flickered. What should I do? What can I do? My thoughts spiralled as I frantically searched again for the two figures.`,
       `They were gone.`,
       `Maybe it was nothing. An accident. People passing by. Something else. I had a nagging feeling at the back of my neck that I should tell Dad. But he was already overworked, tired dark bags sitting under his eyes. I didn't want to give him another thing to worry about that could just be a fluke.`,
-      
       `The next night, they came back. I was prepared for them this time. I watched them carefully. They walked along the fence, stopped at the gate, and crouched near the ground. One of them drew something in the dirt before quickly wiping it away, then they left.`,
       `Twice surely couldn't just be a coincidence.`,
       `I knew I had to do something, tell someone, anyone, but what evidence did I have? Two people came and left. What did that prove? Nothing. I had nothing.`,
-      
       `So I kept watching. On the third night, I stayed awake, staring through the window and hoping, pleading they wouldn't return. 9 passed. 10. I finally let myself relax and released a sigh of relief. The figures were just coincidences after all. I started to turn away from the window, when suddenly, five silhouettes popped up from behind the fence.`,
-      `I whipped back toward the window. They were rolling something large with them. This was the third time, and they brought more people. Three times is a pattern.`
+      `I whipped back toward the window. They were rolling something large with them. This was the third time, and they brought more people. Three times is a pattern.`,
     ]
   },
 
@@ -65,7 +63,7 @@ const storyPages = [
       `I had to deal with it myself.`,
       `I told myself I was being brave. I was protecting Dad.`,
       `More than anything else, I couldn't let his hard work mean nothing.`,
-      `I quietly opened the front door.`
+      `I quietly opened the front door.`,
     ]
   },
 
@@ -106,7 +104,7 @@ const storyPages = [
       `He gently guided me back inside.`,
       `This time, I didn't argue.`,
       `Dad made the calls. The strangers were dealt with without me having to even face them.`,
-      `For the first time in weeks, Dad finally slept without going back to work.`
+      `For the first time in weeks, Dad finally slept without going back to work.`,
     ]
   },
 
@@ -131,7 +129,7 @@ const storyPages = [
       `But leaning against his shoulder, listening to his breathing, I realised the most important thing wasn't so far away at all. I didn't need to protect some distant future.`,
       `And for the first time in a very long time, I wasn't thinking about what we might lose.`,
       `I was thinking about what we still had.`,
-      `Each other.`
+      `Each other.`,
     ]
   }
 ];
