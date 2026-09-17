@@ -33,11 +33,11 @@ const storyPages = [
       `The figures started moving along the fence. I couldn't see their faces. Then the porch light flickered. What should I do? What can I do? My thoughts spiralled as I frantically searched again for the two figures.`,
       `They were gone.`,
       `Maybe it was nothing. An accident. People passing by. Something else. I had a nagging feeling at the back of my neck that I should tell Dad. But he was already overworked, tired dark bags sitting under his eyes. I didn't want to give him another thing to worry about that could just be a fluke.`,
-      `☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾`,
+      
       `The next night, they came back. I was prepared for them this time. I watched them carefully. They walked along the fence, stopped at the gate, and crouched near the ground. One of them drew something in the dirt before quickly wiping it away, then they left.`,
       `Twice surely couldn't just be a coincidence.`,
       `I knew I had to do something, tell someone, anyone, but what evidence did I have? Two people came and left. What did that prove? Nothing. I had nothing.`,
-      `☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾☾`,
+      
       `So I kept watching. On the third night, I stayed awake, staring through the window and hoping, pleading they wouldn't return. 9 passed. 10. I finally let myself relax and released a sigh of relief. The figures were just coincidences after all. I started to turn away from the window, when suddenly, five silhouettes popped up from behind the fence.`,
       `I whipped back toward the window. They were rolling something large with them. This was the third time, and they brought more people. Three times is a pattern.`
     ]
