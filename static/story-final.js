@@ -70,7 +70,7 @@ const storyPages = [
   {
     number: "Chapter 4",
     title: "What We Could Lose",
-    image: "story-4.png",
+    image: "WORK.png",
     alt: "",
     text: [
       `I slowly opened the front door. It creaked eerily in the cold night. The porch light was off. The warmth it usually had was gone, leaving the verandah dark and cold. I tiptoed outside, silently placing one foot in front of the other.`,
